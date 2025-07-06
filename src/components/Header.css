@@ -1,69 +1,73 @@
-/* the header styling */
+/* Header */
 .header {
   width: 100%;
-  background-color: #0f172a;
-  padding: 2rem 1rem;
+  background-color: #578fca;
+  padding: 1rem 2rem;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   color: #f1f5f9;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
-/* Inner container for content alignment */
+/* Updated container */
 .header .container {
-  max-width: 768px; /* or 960px, or 100% for full */
+  max-width: 960px;
   width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.5rem;
-  text-align: center;
+  flex-direction: row; /* make it horizontal */
+  justify-content: space-between; /* logo left, nav right */
+  align-items: center; /* vertically align */
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0;
 }
 
+/* Logo */
 .header img {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   object-fit: cover;
-  box-shadow: 0 0 0 3px #38bdf8; /* cyan outline */
+  box-shadow: 0 0 0 3px #98a1bc;
 }
 
-.header h1 {
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-.header h2 {
-  font-size: 1.25rem;
-  font-weight: 500;
-  color: #94a3b8; /* slate-400 */
-}
-
-/* Navigation Styles */
+/* Nav list */
 .header nav ul {
   display: flex;
   gap: 1.5rem;
   list-style: none;
   padding: 0;
   margin: 0;
+  transition: all 0.5s ease;
 }
-
-.header nav a {
+/*
+.header nav ul li .links {
+  color: white;
   text-decoration: none;
-  color: #f1f5f9;
+  transition: all 0.3s ease;
+}
+.header nav ul li .links:hover {
+  font-weight: bold;
+  transform: scale(1.08);
+}*/
+.header nav ul li .links {
+  position: relative;
+  color: white;
+  text-decoration: none;
   font-weight: 500;
-  transition: color 0.3s ease, transform 0.2s ease;
+  transition: color 0.3s ease;
 }
 
-.header nav a:hover {
-  color: #38bdf8; /* cyan-400 */
-  transform: translateY(-2px);
+.header nav ul li .links::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
 }
 
-.header nav a.active {
-  border-bottom: 2px solid #38bdf8;
-  padding-bottom: 0.25rem;
+.header nav ul li .links:hover::after {
+  transform: scaleX(1);
 }
