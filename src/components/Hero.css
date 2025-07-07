@@ -1,0 +1,61 @@
+/* Hero section takes full width */
+.hero {
+  width: 100%;
+  background-color: #f5f0cd; /* or whatever background you want */
+  padding: 4rem 2rem;
+}
+
+/* Inner container for layout and centering */
+.hero {
+  display: flex;
+  justify-content: center;
+}
+
+/* Add a wrapper to limit content width */
+.hero > div {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* Text styling */
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  color: #0f172a;
+}
+
+.hero-text h2 {
+  font-size: 1.5rem;
+  color: #475569;
+  margin-top: 1rem;
+}
+
+.hero-text p {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #64748b;
+  line-height: 1.6;
+}
+
+/* Image styling */
+.hero-image {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-image img {
+  max-width: 300px;
+  /* height: 400px; */
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+}
