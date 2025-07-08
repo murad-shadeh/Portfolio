@@ -1,0 +1,25 @@
+[
+  {
+    "title": "React Quiz App",
+    "description": "A single-page web application that tests the user's React mastery with 15 timed questions.",
+    "techStack": ["React", "Node.js", "JavaScript", "HTML", "CSS", "Netlify"],
+    "github": "https://github.com/murad-shadeh/ReactQuiz",
+    "demo": "https://testinreact.netlify.app/"
+  },
+  {
+    "title": "Faraway App",
+    "description": "A single-page web application that allows the user to manage their packing list before traveling.",
+    "techStack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "GIT",
+      "GitHub",
+      "Netlify",
+      "MIRO"
+    ],
+    "github": "https://github.com/murad-shadeh/far-away",
+    "demo": "https://packingfaraway.netlify.app/"
+  }
+]
