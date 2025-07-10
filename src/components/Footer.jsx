@@ -1,15 +1,40 @@
+import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import "./Footer.css";
+
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="container text-center">
-        <p className="mb-0">&copy; {new Date().getFullYear()} Murad Dabbous.</p>
-        <p>
-          Built with{" "}
-          <span role="img" aria-label="love">
-            ❤️
-          </span>{" "}
-          using React + Vite.
+      <div className="footer-container">
+        <p className="footer-text">
+          &copy; {new Date().getFullYear()} Built By Murad Dabbous Using React +
+          Vite
         </p>
+        <div className="footer-links">
+          <a
+            href="mailto:moradshadeh@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Email"
+          >
+            <FaEnvelope />
+          </a>
+          <a
+            href="https://github.com/murad-shadeh"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="GitHub"
+          >
+            <FaGithub />
+          </a>
+          <a
+            href="https://linkedin.com/in/murad-shadeh"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="LinkedIn"
+          >
+            <FaLinkedin />
+          </a>
+        </div>
       </div>
     </footer>
   );
