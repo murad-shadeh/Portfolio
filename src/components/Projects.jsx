@@ -27,9 +27,16 @@ const Projects = () => {
                     <Card.Text className="project-desc">
                       {project.description}
                     </Card.Text>
-                    <p className="project-tech">
-                      <strong>Stack:</strong> {project.techStack.join(", ")}
-                    </p>
+                    <div className="project-tech">
+                      <div className="tech-badges">
+                        <strong>Stack:</strong>
+                        {project.techStack.map((tech, index) => (
+                          <span key={index} className="tech-badge">
+                            {tech}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
                   </div>
                   <div className="d-flex flex-wrap gap-2 mt-3">
                     <Button

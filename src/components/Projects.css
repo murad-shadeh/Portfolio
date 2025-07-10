@@ -21,6 +21,10 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin-top: 20px;
 }
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
 .title {
   font-size: 1.5rem;
   font-weight: 600;
@@ -69,10 +73,22 @@
   margin: 0;
 }
 
-.project-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+.tech-badges {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
+
+.tech-badge {
+  background-color: #e2e8f0;
+  color: #1e293b;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
 .button {
   margin: 5px;
   background: #fff;

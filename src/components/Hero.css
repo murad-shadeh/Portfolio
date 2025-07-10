@@ -1,7 +1,7 @@
 /* Hero section takes full width */
 .hero {
   width: 100%;
-  background-color: #f5f0cd; /* or whatever background you want */
+  background-color: #f5f0cd;
   padding: 4rem 2rem;
 }
 
