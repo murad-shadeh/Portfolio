@@ -6,8 +6,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <p className="footer-text">
-          &copy; {new Date().getFullYear()} Built By Murad Dabbous Using React +
-          Vite
+          &copy; {new Date().getFullYear()} Designed & Built by Murad Dabbous
         </p>
         <div className="footer-links">
           <a
