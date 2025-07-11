@@ -1,6 +1,6 @@
 .contact-section {
   width: 100%;
-  background-color: #f5f0cd;
+  background-color: #f8fafc;
   padding: 4rem 1.5rem;
   text-align: center;
 }
@@ -14,7 +14,7 @@
 
 .contact-text {
   font-size: 1rem;
-  color: #374151;
+  color: #1e293b;
   max-width: 600px;
   margin: 0 auto 2rem auto;
   line-height: 1.6;
@@ -27,6 +27,8 @@
   border-radius: 0.375rem;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  background-color: #38bdf8;
+  color: #1e293b;
 }
 
 .contact-button:hover {
