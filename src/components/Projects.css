@@ -1,3 +1,6 @@
+.projects-section .container {
+  display: block !important;
+}
 .projects-section {
   padding: 4rem 1rem;
   background-color: #f8fafc;

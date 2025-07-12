@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Header.css";
 import logo from "../assets/logo2.png";
 
@@ -6,7 +6,10 @@ const Header = () => {
   return (
     <header className="header">
       <div className="container">
-        <img src={logo} alt="Site logo" />
+        <Link to="/" className="logo-link">
+          <img src={logo} alt="Site logo" className="logo" />
+        </Link>
+
         <nav>
           <ul>
             <li>
@@ -26,10 +29,10 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-        {/* <h1>
-          <span id="Welcome_to_my_site">Hello, I am Murad.</span>
-        </h1>
-        <h2>I am a Frontend & Full-stack Engineer</h2> */}
+
+        <a href="/Murad_Dabbous_Resume.pdf" download className="resume-button">
+          Résumé
+        </a>
       </div>
     </header>
   );
