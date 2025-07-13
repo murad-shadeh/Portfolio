@@ -2,7 +2,7 @@
 
 A single-page developer portfolio showcasing my technical skills and key projects.
 
-🔗 **Live Demo:** https://muradportfolio.netlify.app/
+🔗 **Live Demo:** https://muraddabbous.netlify.app/
 
 ## 🧰 Tech Stack
 
@@ -16,10 +16,12 @@ A single-page developer portfolio showcasing my technical skills and key project
 
 1. **React Quiz App**  
    A single-page web application that tests the user's React mastery with 15 timed questions.
+
    🔗 [GitHub](https://github.com/murad-shadeh/ReactQuiz) • 🌐 [Live Demo](https://testinreact.netlify.app)
 
 2. **Faraway Packing List**  
    Responsive packing list manager that allows the user to manage their packing list before traveling.
+
    🔗 [GitHub](https://github.com/murad-shadeh/far-away) • 🌐 [Live Demo](https://packingfaraway.netlify.app)
 
 _(More projects coming soon!)_
