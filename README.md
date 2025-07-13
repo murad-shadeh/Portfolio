@@ -1,42 +1,40 @@
 # 🎯 Murad's Portfolio
 
-A one-page developer portfolio showcasing my skills and key projects.
+A single-page developer portfolio showcasing my technical skills and key projects.
 
 🔗 **Live Demo:** https://muradportfolio.netlify.app/
 
----
-
 ## 🧰 Tech Stack
 
-- **Frontend:** React.js, HTML5, CSS3, JavaScript (ES6+)
-- **Styling:** React Bootstrap, Tailwind CSS
-- **Routing & Links:** react-router-dom, react-router-hash-link
+- **Framework:** React.js
+- **Markup & Styles:** HTML5, CSS3, React Bootstrap
+- **Routing & Scrolling:** react-router-dom, react-router-hash-link
 - **Icons:** react-icons
 - **Deployment:** Netlify
-
----
 
 ## 🚀 Featured Projects
 
 1. **React Quiz App**  
-   A timed quiz application with score tracking and question randomization.  
+   A single-page web application that tests the user's React mastery with 15 timed questions.
    🔗 [GitHub](https://github.com/murad-shadeh/ReactQuiz) • 🌐 [Live Demo](https://testinreact.netlify.app)
 
 2. **Faraway Packing List**  
-   Responsive packing list manager built with React and local storage.  
+   Responsive packing list manager that allows the user to manage their packing list before traveling.
    🔗 [GitHub](https://github.com/murad-shadeh/far-away) • 🌐 [Live Demo](https://packingfaraway.netlify.app)
 
 _(More projects coming soon!)_
-
----
 
 ## 📦 Getting Started
 
 If you’d like to run this locally:
 
 ```bash
-git clone https://github.com/murad-shadeh/portfolio.git
-cd portfolio
+git clone git@github.com:murad-shadeh/Portfolio.git
+cd dirname
 npm install
 npm run dev
 ```
+
+---
+
+_By Murad Dabbous_
