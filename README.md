@@ -14,7 +14,7 @@ A single-page web application that tests the user's **React mastery** with 15 ti
 - **Backend**: Node.js, Express.js
 - **Tools**: Git, GitHub, VSCode, Miro
 - **Deployment**: Netlify (frontend), Render (backend)
-- **Packages**: react-router-dom, react- bootstrap, react-icons
+- **Packages**: react-router-dom, react- bootstrap, react-icons, react-router-hash-link
 
 ## 🧩 Features
 

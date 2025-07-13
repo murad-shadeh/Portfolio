@@ -1,4 +1,3 @@
-import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Header from "./components/Header";
 import Main from "./components/Main";
@@ -19,12 +18,6 @@ const App = () => {
         </div>
         <Footer />
       </Main>
-
-      <Routes>
-        {/* <Route path="index" element={<App />} />
-        <Route path="/about" element={<About />} />
-        <Route path="contact" element={<Contact />} /> */}
-      </Routes>
     </div>
   );
 };

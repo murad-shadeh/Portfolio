@@ -9,7 +9,7 @@ import "./Projects.css";
 const Projects = () => {
   //   console.log(data);
   return (
-    <section className="projects-section">
+    <section className="projects-section" id="projects">
       <Container>
         <h2 className="section-title">My Projects</h2>
         <Row>

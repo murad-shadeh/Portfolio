@@ -1,4 +1,5 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import "./Header.css";
 import logo from "../assets/logo2.png";
 
@@ -13,19 +14,19 @@ const Header = () => {
         <nav>
           <ul>
             <li>
-              <NavLink to="/" className="links">
-                Home
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/about" className="links">
+              <HashLink smooth to="#about" className="links">
                 About
-              </NavLink>
+              </HashLink>
             </li>
             <li>
-              <NavLink to="/contact" className="links">
+              <HashLink smooth to="#projects" className="links">
+                Work
+              </HashLink>
+            </li>
+            <li>
+              <HashLink smooth to="#contact" className="links">
                 Contact
-              </NavLink>
+              </HashLink>
             </li>
           </ul>
         </nav>
