@@ -1,58 +1,42 @@
-# 🎯 React Quiz App
+# 🎯 Murad's Portfolio
 
-A single-page web application that tests the user's **React mastery** with 15 timed questions.
+A one-page developer portfolio showcasing my skills and key projects.
 
-[🚀 View Live on Netlify](https://testinreact.netlify.app/)
-
-## 🖼️ Wireframe
-
-![App Wireframe](public/wireframe.jpg)
-
-## 🛠 Tech Stack
-
-- **Frontend**: React.js, HTML, CSS, JavaScript
-- **Backend**: Node.js, Express.js
-- **Tools**: Git, GitHub, VSCode, Miro
-- **Deployment**: Netlify (frontend), Render (backend)
-- **Packages**: react-router-dom, react- bootstrap, react-icons, react-router-hash-link
-
-## 🧩 Features
-
-- Interactive multiple-choice quiz with instant scoring
-- 30-second timer per question
-- Dynamic progress and scoring system
-- Responsive design
-- Restart and finish functionality
-- Clean and modular code using React hooks like useEffect and useReducer
-
-## 🧪 Run Locally
-
-```bash
-# Clone the project
-git clone git@github.com:your-username/ReactQuiz.git
-cd dirName
-
-# Install dependencies
-npm install
-
-# Start the frontend
-npm run dev
-
-```
-
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔗 **Live Demo:** https://muradportfolio.netlify.app/
 
 ---
 
-_By Murad Dabbous_
+## 🧰 Tech Stack
+
+- **Frontend:** React.js, HTML5, CSS3, JavaScript (ES6+)
+- **Styling:** React Bootstrap, Tailwind CSS
+- **Routing & Links:** react-router-dom, react-router-hash-link
+- **Icons:** react-icons
+- **Deployment:** Netlify
+
+---
+
+## 🚀 Featured Projects
+
+1. **React Quiz App**  
+   A timed quiz application with score tracking and question randomization.  
+   🔗 [GitHub](https://github.com/murad-shadeh/ReactQuiz) • 🌐 [Live Demo](https://testinreact.netlify.app)
+
+2. **Faraway Packing List**  
+   Responsive packing list manager built with React and local storage.  
+   🔗 [GitHub](https://github.com/murad-shadeh/far-away) • 🌐 [Live Demo](https://packingfaraway.netlify.app)
+
+_(More projects coming soon!)_
+
+---
+
+## 📦 Getting Started
+
+If you’d like to run this locally:
+
+```bash
+git clone https://github.com/murad-shadeh/portfolio.git
+cd portfolio
+npm install
+npm run dev
+```
