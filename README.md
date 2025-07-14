@@ -24,7 +24,7 @@ A single-page developer portfolio showcasing my technical skills and key project
 
    🔗 [GitHub](https://github.com/murad-shadeh/far-away) • 🌐 [Live Demo](https://packingfaraway.netlify.app)
 
-_(More projects coming soon!)_
+_(More projects coming soon...)_
 
 ## 📦 Getting Started
 
