@@ -39,4 +39,4 @@ npm run dev
 
 ---
 
-_By Murad Dabbous_
+_Built using React + Vite by Murad Dabbous_

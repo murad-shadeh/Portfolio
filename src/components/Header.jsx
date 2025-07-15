@@ -31,7 +31,11 @@ const Header = () => {
           </ul>
         </nav>
 
-        <a href="/Murad_Dabbous_Resume.pdf" download className="resume-button">
+        <a
+          href="/public/Murad_Dabbous_FullStack_Developer.pdf"
+          download
+          className="resume-button"
+        >
           Résumé
         </a>
       </div>
