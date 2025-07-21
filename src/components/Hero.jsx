@@ -1,5 +1,5 @@
 import "./Hero.css";
-import me from "../assets/murad.jpg";
+import me from "../assets/me.JPG";
 const Hero = () => {
   return (
     <section className="hero" id="about">
