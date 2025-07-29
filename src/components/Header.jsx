@@ -32,7 +32,7 @@ const Header = () => {
         </nav>
 
         <a
-          href="/Murad_Dabbous_FullStack_Developer.pdf"
+          href="/Murad_Dabbous_Full_Stack_Developer.pdf"
           download
           className="resume-button"
         >
