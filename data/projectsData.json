@@ -1,5 +1,34 @@
 [
   {
+    "title": "Netflix Clone",
+    "description": "A full-stack web application that allows the user to view movies and TV shows, and add them to their favorites list and managing it.",
+    "techStack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "React Hooks",
+      "React Router",
+      "Node.js",
+      "React Bootstrap",
+      "Express.js",
+      "PostgreSQL",
+      "axios",
+      "JSON",
+      "REST API",
+      "VITE",
+      "GIT",
+      "GitHub",
+      "npm",
+      "Netlify",
+      "Render",
+      "VSCODE"
+    ],
+    "github": "https://github.com/murad-shadeh/Netflix",
+    "image": "/Images/netflix-clone.png",
+    "demo": "https://cloneofnetfliix.netlify.app/"
+  },
+  {
     "title": "React Quiz",
     "description": "A single-page web application that tests the user's React mastery with 15 timed questions.",
     "techStack": [

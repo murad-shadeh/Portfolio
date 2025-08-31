@@ -24,6 +24,11 @@ A single-page developer portfolio showcasing my technical skills and key project
 
    🔗 [GitHub](https://github.com/murad-shadeh/far-away) • 🌐 [Live Demo](https://packingfaraway.netlify.app)
 
+3. **Netflix Clone**  
+   A full-stack web application that allows the user to view movies and TV shows, and add them to their favorites list and managing it.
+
+   🔗 [GitHub](https://github.com/murad-shadeh/Netflix) • 🌐 [Live Demo](https://cloneofnetfliix.netlify.app)
+
 _(More projects coming soon...)_
 
 ## 📦 Getting Started
